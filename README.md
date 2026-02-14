@@ -19,6 +19,8 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+> **Nota:** O projeto usa repositório Maven padrão. O arquivo `settings-custom.xml` é usado apenas no CI.
+
 ## Docker
 
 ### Build da imagem
@@ -107,7 +109,3 @@ src/main/java/com/desafio/cupom/
 ├── infrastructure/  # JPA, Config
 └── api/             # Controllers, Exception Handlers
 ```
-
-## Documentacao
-
-- A documentacao de apoio foi removida antes da publicacao no GitHub.
